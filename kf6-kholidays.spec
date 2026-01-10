@@ -3,18 +3,18 @@
 %bcond_with	tests		# build with tests
 # TODO:
 # - runtime Requires if any
-%define		kdeframever	6.21
+%define		kdeframever	6.22
 %define		qtver		5.15.2
 %define		kfname		kholidays
 
 Summary:	kholidays
 Name:		kf6-%{kfname}
-Version:	6.21.0
+Version:	6.22.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	7ababe718e39a7b610430dc387710f42
+# Source0-md5:	e639f750d23d96e98b4d54823336aab3
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Test-devel >= %{qtver}
