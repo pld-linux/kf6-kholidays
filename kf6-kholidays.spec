@@ -35,7 +35,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		qt6dir		%{_libdir}/qt6
 
 %description
-kholidays.
+Library to determine holidays and other special events for a
+geographical region.
+
+%description -l pl.UTF-8
+Biblioteka, która sprawdza święta i inne specjalne wydarzenia dla
+danego regionu geograficznego.
 
 %package devel
 Summary:	Header files for %{kfname} development
